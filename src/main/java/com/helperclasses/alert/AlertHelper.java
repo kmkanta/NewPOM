@@ -20,6 +20,9 @@ public class AlertHelper {
 		log.info("Alert Text is..." + driver.switchTo().alert().getText());
 		return driver.switchTo().alert();
 	}
+	/**
+	 * 
+	 */
 
 	public void acceptAlert() {
 		log.info("Alert is Accepted...");
